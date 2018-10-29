@@ -1,0 +1,5 @@
+<h1>Hola</h1>
+<% (1..50).each do |num| %>
+  <h2><%="#{num} Soy Par!" if num.even?%></h2>
+  <h2><%="#{num} Soy Impar!"if num.odd?%></h2>
+<% end %>
